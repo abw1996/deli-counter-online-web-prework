@@ -23,8 +23,9 @@ def take_a_number(deli, name)
   start = 0
   length = deli.length
   phrase1 = "Welcome, "
-  phrase2 = "you are number "
-  phrase3 = "in line."
-  place = deli.index(name) + 1 
-  
+  phrase2 = ". you are number "
+  phrase3 = " in line."
+  place = (deli.index(name) + 1).to_s
+  final_phrase = phrase1 + name + phrase2 + place + phrase3
+  puts final_phrase
 end
