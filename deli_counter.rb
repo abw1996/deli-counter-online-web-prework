@@ -17,7 +17,7 @@ def line(deli)
     puts phrase
   end
 end
-
+#======================================================================
 def take_a_number(deli, name)
   deli.push(name)
   start = 0
@@ -29,3 +29,4 @@ def take_a_number(deli, name)
   final_phrase = phrase1 + name + phrase2 + place + phrase3
   puts final_phrase
 end
+#======================================================================
