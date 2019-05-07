@@ -10,7 +10,7 @@ def line(deli)
     phrase = "The line is currently: "
     length.times do
       name = deli.fetch(start)
-      phrase = phrase + place + ". " + name " "
+      phrase = phrase + place + ". " + name + " "
       start += 1
     end
     puts phrase
