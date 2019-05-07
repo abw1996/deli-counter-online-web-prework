@@ -30,6 +30,6 @@ def take_a_number(deli, name)
   puts final_phrase
 end
 #======================================================================
-def now_serving
+def now_serving(deli)
   
 end 
