@@ -20,4 +20,12 @@ end
 
 def take_a_number(deli, name)
   deli.push(name)
+  start = 0
+  length = deli.length
+  phrase1 = "Welcome, "
+  phrase2 = "you are number "
+  phrase3 = "in line."
+  length.times do 
+  name = deli.fetch(start)  
+  place = (start + 1).to_s
 end
