@@ -13,7 +13,7 @@ def line(deli)
       phrase = phrase + place + ". " + name " "
       start += 1
     end
-    puts phrase.chop
+    puts phrase.chomp
   end
 end
 
