@@ -25,7 +25,6 @@ def take_a_number(deli, name)
   phrase1 = "Welcome, "
   phrase2 = "you are number "
   phrase3 = "in line."
-  length.times do 
-  name = deli.fetch(start)  
-  place = (start + 1).to_s
+  place = deli.index(name) + 1 
+  
 end
