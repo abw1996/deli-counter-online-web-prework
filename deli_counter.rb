@@ -12,7 +12,7 @@ def line(deli)
       phrase = phrase + place + ". " + name
       start += 1
     end
-    return phrase
+    puts phrase
   end
 end
 
