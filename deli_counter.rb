@@ -7,13 +7,14 @@ def line(deli)
     
     place = (start + 1).to_s
     length = deli.length
-    phrase = "The line is currently: "
+    phrase = "The line is currently:"
     length.times do
+      place = (start + 1).to_s
       name = deli.fetch(start)
-      phrase = phrase + place + ". " + name + " "
+      phrase = phrase + " " + place + ". " + name
       start += 1
     end
-    puts phrase.chop
+    puts phrase
   end
 end
 
